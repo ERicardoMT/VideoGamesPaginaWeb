@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidades - Virtual Level</title>
+    <link rel="stylesheet" href="comunidades-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../imagenes/logo.png" class="logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#" class="active"><i class="fas fa-newspaper"></i> COMUNIDAD</a></li>
+                <li><a href="../Reseña/Reseñas.html"><i class="fas fa-gamepad"></i> RESEÑAS</a></li>
+                <li class="dropdown">
+                    <a href="#"><i class="fas fa-tv"></i> CONSOLAS</a>
+                    <div class="dropdown-content">
+                        <a href="../ps/ps5-catalog.html">Playstation</a>
+                        <a href="#">Xbox</a>
+                        <a href="#">Nintendo</a>
+                        <a href="#">PC</a>
+                    </div>
+                </li>
+                <li><a href="../login/login.html" class="login-btn"><i class="fas fa-user-circle"></i> LOG IN / SING UP</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar" class="search-input">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <h1 class="page-title">COMUNIDADES</h1>
+        
+        <div class="communities-container">
+            <div class="communities-list">
+                <!-- PlayStation Community -->
+                <div class="community-card">
+                    <h2 class="community-name">PlayStation</h2>
+                    <div class="community-content">
+                        <div class="community-logo">
+                            <img src="../imagenes/PlayStationlogo.png" alt="PlayStation Logo">
+                        </div>
+                        <div class="community-description">
+                            <p>Grupo para compartir aventuras gamer en el universo Playstation, hacer amigos y formar las retas, siempre en un ambiente de respeto y camaradería. Estará fuertemente moderado para bloquear en lo posible a los tóxicos y haters. Los gamers somos somos más.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Nintendo Community -->
+                <div class="community-card">
+                    <h2 class="community-name">Nintendo</h2>
+                    <div class="community-content">
+                        <div class="community-logo">
+                            <img src="../imagenes/logoN.png" alt="Nintendo Logo">
+                        </div>
+                        <div class="community-description">
+                            <p>NINTENDO NOS DEMANDO 7u7</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Xbox Community -->
+                <div class="community-card">
+                    <h2 class="community-name">Xbox</h2>
+                    <div class="community-content">
+                        <div class="community-logo">
+                            <img src="../imagenes/logoxbox.png" alt="Xbox Logo">
+                        </div>
+                        <div class="community-description">
+                            <p>Este grupo es dedicado a la comunidad xbox de habla hispana, el grupo tiene ciertas reglas y se deberán cumplir, quién no las cumpla se les dará un aviso, si se vuelve a hacer otra falta a las reglas será merecedor de expulsión del grupo de parte de cualquier administrador (BAN)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Marvel Community -->
+                <div class="community-card">
+                    <h2 class="community-name">PC</h2>
+                    <div class="community-content">
+                        <div class="community-logo">
+                            <img src="../imagenes/logoPC.jpg" alt="Marvel Logo">
+                        </div>
+                        <div class="community-description">
+                            <p>¡Bienvenidos a Marvel Rivals Latinoamérica! ¡Estamos emocionados de tenerte en nuestra comunidad de fans apasionados del universo Marvel y del juego Marvel Rivals!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="advertisement">
+                <div class="ad-content">
+                    <img src="lol-ad.jpg" alt="League of Legends" class="ad-image">
+                    <div class="ad-text">
+                        <h3>EVERY PRO STARTS SOMEWHERE...</h3>
+                        <a href="#" class="ad-button">TAKE ME THERE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-bubble">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <div id="popup-container" class="popup-hidden">
+        <div class="popup-header">
+            <span class="popup-title">¡Únete a una comunidad!</span>
+            <button id="close-popup" class="close-btn">&times;</button>
+        </div>
+        <div class="popup-content">
+            <img src="community-ad.jpg" alt="Comunidades" class="popup-image">
+            <p>Encuentra jugadores con tus mismos intereses y forma parte de nuestra comunidad gamer.</p>
+            <button class="popup-btn">Explorar Comunidades</button>
+        </div>
+    </div>
+
+    <script src="comunidades-script.js"></script>
+</body>
+</html>
