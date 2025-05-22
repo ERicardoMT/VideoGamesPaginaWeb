@@ -26,7 +26,7 @@ if (empty($user) || empty($pass)) {
 $host = 'localhost';
 $dbname = 'aaron';
 $dbUser = 'root';
-$dbPass = '';
+$dbPass = '12345';
 
 try {
     // Conexión a la base de datos
